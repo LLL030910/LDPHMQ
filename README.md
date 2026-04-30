@@ -40,19 +40,6 @@ This repository currently includes the following datasets under `datasets/`:
 - GLPK : https://ftp.gnu.org/gnu/glpk/
 - Boost : https://www.boost.org/
 
-## Main Program
-
-The main experimental entry is [src/main.cpp](src/main.cpp).
-
-It currently performs comparative experiments by:
-
-- loading one dataset
-- applying one of the LDP mechanisms
-- constructing skyline or representative skyline candidate sets
-- selecting a size-`k` representative subset
-- mapping the private result back to original points
-- evaluating the result using `CD` distance
-
 ## Code Organization
 
 ### Core HMQ and dataset components
